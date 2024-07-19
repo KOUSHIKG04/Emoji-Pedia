@@ -26,10 +26,10 @@ function App() {
         {/* {emojipedia.map(CardDetail)} */}
 
         {/* ARROW FUNCTION*/}
-        {emojipedia.map((emojis, index) => (
+        {emojipedia.map((emojis) => (
           <Card
             emoji={emojis.emoji}
-            key={index}
+            key={index.id}
             name={emojis.name}
             meaning={emojis.meaning}
           />
