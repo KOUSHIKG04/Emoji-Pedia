@@ -29,7 +29,7 @@ function App() {
         {emojipedia.map((emojis) => (
           <Card
             emoji={emojis.emoji}
-            key={index.id}
+            key={emojis.id}
             name={emojis.name}
             meaning={emojis.meaning}
           />
